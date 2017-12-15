@@ -32,8 +32,9 @@ class Member extends Authenticatable
         return 22;
     }
 
-    public function Foobar()
+    public function Fobar()
     {
         return "foo";
+        echo "true";
     }
 }
