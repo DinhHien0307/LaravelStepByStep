@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return "The About Page";
 });
+
+Route::get('get-form', ['uses'=> 'handleController@getForm']);
+Route::post('handle-form', ['uses'=> 'handleController@handleRequest']);

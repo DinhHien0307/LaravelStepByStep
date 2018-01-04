@@ -29,12 +29,14 @@ class Member extends Authenticatable
 
     public function age()
     {
+        $foo="bar";
+        $cat="meo";
         return 22;
+
     }
 
     public function Fobar()
     {
         return "foo";
-        echo "true";
     }
 }
