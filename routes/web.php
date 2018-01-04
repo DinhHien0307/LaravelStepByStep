@@ -11,13 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/about', function () {
     return "The About Page";
 });
 
 Route::get('get-form', ['uses'=> 'handleController@getForm']);
 Route::post('handle-form', ['uses'=> 'handleController@handleRequest']);
+
+Route::get('/', 'PostsController@index');
+Route::get('/posts/{post}','PostsController@show');
