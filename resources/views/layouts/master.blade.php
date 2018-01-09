@@ -28,7 +28,7 @@
       <div class="blog-header">
         <div class="container">
           <h1 class="blog-title">Dinh Pham Vinh Hien</h1>
-          <p class="lead blog-description">Vy</p>
+          {{--  <p class="lead blog-description">Vy</p>  --}}
         </div>
       </div>
     </header>

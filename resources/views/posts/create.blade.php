@@ -6,7 +6,7 @@
 
     <hr>
     
-    <form method="POST" action="http://localhost/Laravel/public/posts">
+    <form method="POST" action="posts">
     {{csrf_field() }}
         <div class="form-group">
             <label for="Title">Title</label>
@@ -22,6 +22,6 @@
         <button type="submit" class="btn btn-primary">Publish</button>
         </div>
         @include('layouts.error')
-</form>
+    </form>
 </div>
 @endsection
